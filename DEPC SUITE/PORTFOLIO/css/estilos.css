@@ -1,0 +1,209 @@
+.Container1{
+
+    max-width: 1140px;
+}
+
+.collapse navbar-collapse{
+
+    align-content: center;
+}
+
+.nav-link{
+color:black  !important;
+text-decoration: none;
+font-size:20px;
+width:250px;
+text-transform:uppercase ;
+text-align: center;
+display: block;
+padding:.5rem 1rem;
+font-weight: bolder;
+}
+.nav-link:hover{
+    cursor: pointer;
+    text-decoration:underline;
+    color:#2471A3  !important;
+}
+
+.navbar{
+    position: relative;
+    align-items: flex;
+    padding: .5rem 10rem;
+}
+
+.btn{
+
+    background-color: black;
+    color:white;
+    border-radius: 0px;
+
+}
+
+.btn:hover{
+
+    background-color: white;
+    color:black;
+    border-color: black;
+}
+body{
+
+    background-color: #eeeeee;
+    font-family:'Montserrat', sans-serif; 
+}
+
+#Contacto{
+
+    margin: 60px 0px;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#Contacto h1, h2{
+
+    font-weight: 900px;
+}
+
+h1{
+
+font-size:55px;
+padding-bottom: 20px;
+font-weight: bolder;
+color:rgb (45,45,45);
+}
+
+
+h2{
+
+    font-size: 30px;
+    line-height: 40px;
+    font-weight:bolder;
+    color:rgb (45,45,45);
+}
+
+#Contacto form{
+    margin-top:60px;
+}
+
+
+#Contacto input[type=text] , #Contacto textarea {
+
+    background-color: #eeeeee;
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 0px;
+}
+
+}
+
+
+#txtNombre{
+background-color: #eeeeee;
+border:none;
+width: 100%;
+
+
+
+}
+
+#txtContacto{
+
+    background-color: #eeeeee;
+    border:none;
+    width: 100%;
+    
+
+}
+
+#txtAsunto {
+    background-color: #eeeeee;
+    border:none;
+
+}
+
+#txtMensaje{
+
+    background-color: #eeeeee;
+    border:none;
+}
+* , ::after ::before{
+
+    box-sizing: border-box;
+}
+
+.col-6{
+
+    position: relative;
+    width: 100%;
+    padding-right: 15 px;
+    padding-left: 15px;
+    
+}
+div{
+    display: block;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: $input-height;
+    padding: $input-padding-y $input-padding-x;
+    font-family: $input-font-family;
+    @include font-size($input-font-size);
+    font-weight: $input-font-weight;
+    line-height: $input-line-height;
+    color: $input-color;
+    background-color: $input-bg;
+    background-clip: padding-box;
+    border: $input-border-width solid $input-border-color;}
+
+    footer{
+        background-color: white;
+        padding:50px;
+    }
+
+    footer a{
+
+        color: black;
+        text-decoration: underline;
+        font-weight: bolder;
+    }
+
+    .text-center{
+
+        text-align: center !important;
+    }
+
+    .col-4{
+   
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    }
+
+    footer i {
+        font-size: 35px;
+        border: 1px solid;
+        height: 55px;
+        width: 55px;
+        text-align: center;
+        padding: 8px 0 0 0;
+        border-radius: 80px;
+        margin: 0 15px;
+    }
+    @media (max-width: 700px) {
+
+#Contacto{
+    margin:20px 0;
+}
+h1{
+    font-size:40px;
+}
+#Contacto h2{
+
+    font-size: 20px;
+    line-height:30px;
+}
+    }

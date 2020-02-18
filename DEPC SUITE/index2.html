@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Formulario de contacto</title>
+<link href="css/css/all.min.css" rel="stylesheet">
+<link href="css/css/fontawesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+</head>
+
+<body>
+     
+<header>
+    
+<ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="quienes.html">Servicios</a></li>
+    <li><a href="lala.html">Conocenos</a></li>
+    <li><a href="lalala.html">Contacto</a></li>
+    
+</ul>
+
+
+
+</header>
+
+
+<h1>Escribinos,te respondemos al toque ;)</h1> 
+
+<form action="" ,  method="POST">
+<div>
+<label for="txtNombre">Nombre<span>*</span> </label>
+<input type="text"  name="txtNombre" id="txtNombre" required>
+
+</div>
+<br>
+<div>
+    <label for="txtCorreo">Correo<span>*</span> </label>
+    
+    <input type="email"  name="txtCorreo" id="txtCorreo" required>
+    
+    </div>
+    <br>
+<div>
+    <label for="numTelefono">Telefono<span>*</span> </label>
+    
+    <input type="numer"  name="numTelefono" id="numTelefono" required placeholder="Ej.(+54) 9999-999    ">
+    
+    </div>
+    <br>
+    <div>
+<label for="lstAsunto">Asunto <span>*</span></label>
+<select name="lstAsunto" id="lstAsunto">
+    <option disabled selected value="select">Seleccionar</option>
+    <option value="ventas">ventas</option>
+    <option value="trabajo">Trabajo</option>
+    <option value="Empresa">Empresas</option>
+
+</select>
+
+
+
+    </div>
+    <br>
+    <div>
+        <label for="txtMensaje" class="mensaje" >Mensaje<span>*</span></label>
+        <textarea  name="txtMensaje" id="txtMensaje" cols="150" rows="10"></textarea >
+        </div>
+        <br>
+        <div>
+<label for="chkNewslatter">Deseo recibir novedades</label>
+<input type="checkbox" name="chkNewslatter" id="chkNewslatter" checked>
+
+        </div>
+        <br>
+        <div>
+            <label for="chkNewslatter">Acepto terminos y condiciones</label>
+            <input type="checkbox" name="chkNewslatter" id="chkNewslatter" >
+            
+                    </div>
+                    <br>
+                    <div>
+<label for="optMayor">Es mayor de edad?</label>
+Si<input type="radio" name="optMayor" id="optMayor">
+No pero digo que si <input type="radio" name="optMayor" id="optMayor">
+
+                    </div>
+
+<br>
+        <div>
+<input type="submit" value="Enviar"  class="boton">
+
+        </div>
+</form>
+<footer>
+    <i class="fab fa-linkedin-in"></i>
+</footer>
+
+<style>
+
+     li{
+float:left;
+list-style:none;
+width: 150px;
+text-align: center;
+
+}
+
+
+ a {
+
+display:block;
+color:#fff;
+text-decoration: none ;
+padding:15px;
+}
+
+a:hover{
+
+color:black;
+text-decoration: underline;
+background-color: cornsilk;
+
+
+}
+ul{
+
+clear:both;
+background:pink;
+overflow:hidden;
+margin: 0;
+padding: 0;
+
+
+}
+    .boton{
+
+        color:#fff;
+        background-color:red;
+        font-size: 18px;
+        width:150px;
+        text-align: center;
+        margin-left:50%;
+        height:30px;
+
+    }
+    .boton:hover{
+
+background-color: cornsilk;
+color:darkblue;
+
+    }
+
+    label {
+
+        color:black; 
+        font-style:italic;
+        
+    }
+   
+label span{
+
+   color: red;
+}
+
+body{
+
+    font-family: "Montserrat" , sans-serif;
+}
+
+
+h1{
+    
+color:red;
+text-align:center;
+
+
+}
+
+footer i{
+    color: red;
+    font-size: 35px;
+    border:2px solid;
+ border-radius: 80px;
+ margin:20px 50%;
+ padding:10px;
+
+
+
+}
+
+</style>
+</body>
+
+
+
+
+</html>
