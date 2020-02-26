@@ -1,3 +1,61 @@
+.fondo-inicio{
+    background-image: url("../image/fondo-home.png") ;
+    background-size: cover; 
+}
+
+.pie-inicio{
+
+    margin-top: 150px;
+}
+
+#portfolio{
+margin: 50px 0px;
+}
+
+
+#portfolio h2{
+
+    font-size:20px;
+    line-height: 40px;
+    color:rgb (45,45,45);}
+
+#portfolio .btn{
+ margin-top:10px ;
+background-color: black;
+color:white;
+border-radius: 0px;
+    }
+
+ #portfolio .btn:hover{
+background-color: white;
+color: black;
+border: 1px solid black; 
+
+    }
+#portfolio .row{
+    margin-left: 25px;
+    margin-right:25px ;
+}
+
+#portfolio h2{
+
+    text-align: justify;
+}
+
+#proyectos .fotos{
+    background-color: #fff;
+    width: 500px;
+    display:block;
+}
+
+.cuadro1 {
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
 .Container1{
 
     max-width: 1140px;
@@ -98,7 +156,7 @@ h2{
     border-radius: 0px;
 }
 
-}
+
 
 
 #txtNombre{
@@ -146,19 +204,7 @@ width: 100%;
 div{
     display: block;
 }
-.form-control {
-    display: block;
-    width: 100%;
-    height: $input-height;
-    padding: $input-padding-y $input-padding-x;
-    font-family: $input-font-family;
-    @include font-size($input-font-size);
-    font-weight: $input-font-weight;
-    line-height: $input-line-height;
-    color: $input-color;
-    background-color: $input-bg;
-    background-clip: padding-box;
-    border: $input-border-width solid $input-border-color;}
+
 
     footer{
         background-color: white;
@@ -201,9 +247,4 @@ div{
 h1{
     font-size:40px;
 }
-#Contacto h2{
 
-    font-size: 20px;
-    line-height:30px;
-}
-    }
